@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shahariyar Nafis Portfolio</title>
+  <style>
+    /* ====== Reset ====== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #121212;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #4fc3f7;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #81d4fa;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #4fc3f7;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #b0bec5;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #4fc3f7;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    /* Skills */
+    .skills-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .skills-list li {
+      background: #263238;
+      padding: 10px 15px;
+      border-radius: 20px;
+      font-weight: 600;
+      box-shadow: 0 0 5px #4fc3f7;
+      transition: transform 0.3s ease;
+    }
+
+    .skills-list li:hover {
+      transform: scale(1.1);
+    }
+
+    /* Projects */
+    .project {
+      background: #263238;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 8px #4fc3f7;
+      transition: background-color 0.3s ease;
+    }
+
+    .project:hover {
+      background: #37474f;
+    }
+
+    .project h3 {
+      margin-bottom: 10px;
+      color: #81d4fa;
+    }
+
+    .project a {
+      font-weight: bold;
+    }
+
+    /* Contact */
+    .contact-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      font-size: 1.1rem;
+    }
+
+    .contact-list li span {
+      font-weight: 600;
+      color: #4fc3f7;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      h2 {
+        font-size: 1.6rem;
+      }
+
+      .skills-list {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Shahariyar Nafis</h1>
+      <p>🌱 Learning Web Development | 💻 Frontend Projects | 🚀 Future React Developer</p>
+    </header>
+
+    <section>
+      <h2>🛠 Skills</h2>
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Font Awesome</li>
+        <li>Media Queries</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📂 Projects</h2>
+
+      <div class="project">
+        <h3>Daraz Homepage Clone</h3>
+        <p>A responsive clone of Daraz homepage using HTML, CSS, and Font Awesome.</p>
+        <a href="https://nafis-CSE.github.io/daraz-homepage-clone/" target="_blank" rel="noopener noreferrer">Live Preview</a>
+      </div>
+
+      <!-- More projects can be added here -->
+    </section>
+
+    <section>
+      <h2>📫 Contact</h2>
+      <ul class="contact-list">
+        <li><span>Email:</span> <a href="mailto:shahariyarnafis4700@gmail.com">shahariyarnafis4700@gmail.com</a></li>
+        <li><span>GitHub:</span> <a href="https://github.com/Nafis-CSE" target="_blank" rel="noopener noreferrer">https://github.com/Nafis-CSE</a></li>
+        <li><span>Location:</span> Khulna, Bangladesh</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
