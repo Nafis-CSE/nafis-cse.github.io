@@ -1,0 +1,136 @@
+ /* ====== Reset ====== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #121212;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #4fc3f7;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #81d4fa;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #4fc3f7;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #b0bec5;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #4fc3f7;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    /* Skills */
+    .skills-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .skills-list li {
+      background: #263238;
+      padding: 10px 15px;
+      border-radius: 20px;
+      font-weight: 600;
+      box-shadow: 0 0 5px #4fc3f7;
+      transition: transform 0.3s ease;
+    }
+
+    .skills-list li:hover {
+      transform: scale(1.1);
+    }
+
+    /* Projects */
+    .project {
+      background: #263238;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 8px #4fc3f7;
+      transition: background-color 0.3s ease;
+    }
+
+    .project:hover {
+      background: #37474f;
+    }
+
+    .project h3 {
+      margin-bottom: 10px;
+      color: #81d4fa;
+    }
+
+    .project a {
+      font-weight: bold;
+    }
+
+    .project img {
+      width: 100%;
+      border-radius: 8px;
+      margin: 10px 0;
+    }
+
+    /* Contact */
+    .contact-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      font-size: 1.1rem;
+    }
+
+    .contact-list li span {
+      font-weight: 600;
+      color: #4fc3f7;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      h2 {
+        font-size: 1.6rem;
+      }
+
+      .skills-list {
+        justify-content: center;
+      }
+    }
